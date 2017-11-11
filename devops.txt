@@ -1,0 +1,31 @@
+1) github / git 
+	
+2) ANT / MAVEN 
+	(Java build) [jar, war, ear]
+	zip
+    2.1) tomcat 
+3) Artifactory, Nexus
+4)jenkins
+	i) freestyle jobs
+	ii)pipeline jobs
+5)ansible
+  5.1)sonarqube
+6) docker 
+------------
+after installing docker 
+sudo docker container run -it jboss/wildfly ( interaction mode need to 
+{kill -it (ctrl c) and run -d}
+sudo docker container run -d jboss/wildfly ( -d detached mode runs in background)
+
+------------------------------------------------------------------------------
+nick@s3sonline.com
+gaurav@s-3-services.com
+hr@s3sonline.com
+
+7) AWS
+
+(linux / python )
+
+ANT -> compile -> package -> dependency management (->document -> project lyfecycle)
+
+JENKINS -> build.xml -> POM    esample.java(src../.., dest target, drpend:logic.jar ~ junit.jar)
